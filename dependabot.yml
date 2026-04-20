@@ -1,0 +1,78 @@
+version: 2
+
+# =============================================================================
+# DEPENDABOT CONFIGURATION TEMPLATE
+# This file is the organization-level reference.
+#
+# NOTE: pnpm and bun are not natively supported by Dependabot.
+# Use "npm" as the ecosystem regardless of which JS package manager you use.
+# For full pnpm/bun support, consider Renovate instead of Dependabot.
+# =============================================================================
+
+updates:
+
+  # == GitHub Actions =========================================================
+  # Recommended for ALL repositories that use GitHub Actions workflows.
+  # - package-ecosystem: "github-actions"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   labels:
+  #     - "dependencies"
+  #     - "chore"
+
+  # == npm / pnpm / bun (JavaScript, TypeScript, Angular, Node.js) ============
+  # Use "npm" even if the project uses pnpm or bun.
+  # - package-ecosystem: "npm"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   open-pull-requests-limit: 10
+  #   labels:
+  #     - "dependencies"
+  #     - "chore"
+
+  # == Maven (Java / Spring Boot) =============================================
+  # - package-ecosystem: "maven"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   labels:
+  #     - "dependencies"
+  #     - "chore"
+
+  # == pub (Flutter / Dart) ===================================================
+  # - package-ecosystem: "pub"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   labels:
+  #     - "dependencies"
+  #     - "chore"
+
+  # == pip (Python) ===========================================================
+  # - package-ecosystem: "pip"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   labels:
+  #     - "dependencies"
+  #     - "chore"
+
+  # == Cargo (Rust / Tauri) ===================================================
+  # - package-ecosystem: "cargo"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   labels:
+  #     - "dependencies"
+  #     - "chore"
+
+  # == Docker =================================================================
+  # - package-ecosystem: "docker"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   labels:
+  #     - "dependencies"
+  #     - "chore"
